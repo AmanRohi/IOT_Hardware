@@ -104,7 +104,7 @@ int sendToBackend(){
     // date is static for now (either get dedicated hardware or use wifi)
     String date = "2012-04-23T18:25:43.511Z";
     String data = "{\"rfid\":\"" + rfid + "\", \"" + "temperature\":\"" + temp + "\"}";
-    Serial.println(data);
+    Serial.println(rfid);
     int httpResponseCode = http.POST(data); 
     // delay(5000);
     // Serial.print("HTTP Response code: ");
