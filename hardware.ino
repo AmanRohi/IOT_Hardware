@@ -12,7 +12,7 @@ const char* password = "";
 
 //Your Domain name with URL path or IP address with path
 String serverName = "http://192.168.43.36:8000/temperature";
-String rfid = "iWLl1iwYjHaYhyJEgOpx"; // Variable to store the detected RFID UID
+String rfid = "91qWMla2opoe8koRgdCB"; // Variable to store the detected RFID UID
 String location="Delhi";
 float temp;
 
